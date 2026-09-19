@@ -73,7 +73,7 @@ fun DemoScreen(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
     ) {
-        DemoText(message = "Welcome to Compose", fontSize = sliderPosition)
+        DemoText(message = "Welcome to _Compose", fontSize = sliderPosition)
         Spacer(modifier = Modifier.height(150.dp))
         DemoSlider(
             sliderPosition = sliderPosition,
